@@ -1,0 +1,37 @@
+{
+  "reviews_before": 50000,
+  "reviews_after": 49582,
+  "test_size": 9917,
+  "rows": [
+    {
+      "model": "Bag of words + naive Bayes",
+      "accuracy": 0.8489462539074317,
+      "f1": 0.8447990053874844,
+      "seconds": 2.421095848083496
+    },
+    {
+      "model": "Bag of words + logistic regression",
+      "accuracy": 0.8903902389835636,
+      "f1": 0.8909182137481184,
+      "seconds": 16.81556510925293
+    },
+    {
+      "model": "TF-IDF + logistic regression",
+      "accuracy": 0.9017848139558334,
+      "f1": 0.902541524914949,
+      "seconds": 3.1977572441101074
+    },
+    {
+      "model": "TF-IDF with bigrams + logistic regression",
+      "accuracy": 0.9163053342744781,
+      "f1": 0.9171987230646449,
+      "seconds": 14.62467908859253
+    },
+    {
+      "model": "Latent semantic analysis (300 dimensions) + logistic regression",
+      "accuracy": 0.8825249571442977,
+      "f1": 0.8837209302325582,
+      "seconds": 21.171778202056885
+    }
+  ]
+}
